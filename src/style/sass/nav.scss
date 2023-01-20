@@ -1,0 +1,42 @@
+nav {
+	background-color: #1a1a1c;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	display: flex;
+
+	.navContainer {
+		width: 80%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+
+		ul {
+			width: 100%;
+			display: flex;
+			margin: 0;
+			padding: 0;
+
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			flex-direction: row;
+			li {
+				padding: 15px;
+				margin: 0 5px 0 5px;
+				list-style: none;
+			}
+			li:hover {
+				background-color: black;
+				a {
+					color: rgb(225, 146, 0);
+				}
+			}
+
+			a {
+				color: antiquewhite;
+				text-decoration: none;
+			}
+		}
+	}
+}
