@@ -1,14 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.min.js?url';
-import About from './about.astro';
+import Header from './header.astro';
+import About from './aboutme.astro';
+import Projects from './projects.astro';
+import Contact from './contact.astro';
 ---
 
 <Layout title="josergz">
-	<script src={bootstrap}></script>
 	<main>
+		<Header />
 		<About />
+		<Projects />
+		<Contact />
 	</main>
 </Layout>
+
+<style>
+	main {
+		background-color: #192229;
+		color: #eff3f5;
+		font-family: Lato;
+	}
+</style>

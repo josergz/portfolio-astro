@@ -1,8 +1,9 @@
 nav {
-	background-color: #1a1a1c;
+	background-color: #141819;
 	font-family: 'Lato', sans-serif;
 	width: 100%;
 	display: flex;
+	scroll-behavior: smooth;
 
 	.navContainer {
 		width: 80%;
@@ -29,7 +30,8 @@ nav {
 			li:hover {
 				background-color: black;
 				a {
-					color: rgb(225, 146, 0);
+					color: #52a5e0;
+					font-weight: bold;
 				}
 			}
 
